@@ -73,3 +73,32 @@ img {
 .float-right {
     float: right;
 }
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: blue;
+
+    height: 50px;
+}
+
+/* CONTENT */
+
+header {
+    background-color: #ff6900;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+}
+
+.category-selection {
+    background-color: aqua;
+}
+
+#logo {
+    background-color: blueviolet;
+}
+
+.nav-icons {
+    background-color: brown;
+}
