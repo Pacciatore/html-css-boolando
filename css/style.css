@@ -192,6 +192,8 @@ main {
 
 .brand {
     font-size: 16px;
+    padding-top: 5px;
+
 }
 
 .dress {
@@ -202,7 +204,7 @@ main {
     font-size: 17px;
 }
 
-.new-price {
+.actual-price {
     color: #ff0000;
     font-weight: bold;
 }
