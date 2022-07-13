@@ -3,11 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
 }
 
 /* Grandezza di tutte le immagini massimo quanto il loro rispettivo contenitore */
 img {
-    width: 100%;
+    height: 100%;
 }
 
 /* UTILITIES */
