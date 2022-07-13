@@ -248,6 +248,8 @@ main {
 
 footer {
     background-color: #1a1a1a;
+    color: white;
+
     height: 100px;
 }
 
@@ -255,30 +257,52 @@ footer * {
     height: 100px;
 }
 
-footer>.container>* {
+.legal-info {
+    /* background-color: pink; */
+
     flex-basis: 50%;
 }
 
-.legal-info {
-    background-color: pink;
-}
+#corp-name,
+.social-message {
+    /* background-color: darkturquoise; */
 
-#corp-name {
-    background-color: darkturquoise;
+    font-weight: bold;
+    padding-top: 30px;
 }
 
 .legal-links {
-    background-color: darkkhaki;
+    /* background-color: darkkhaki; */
+
+    font-size: 14px;
+}
+
+.legal-links>* {
+    padding-right: 5px;
 }
 
 .social-area {
-    background-color: darkgoldenrod;
+    /* background-color: darkgoldenrod; */
+    flex-basis: 20%;
 }
 
 .social-message {
-    background-color: darkorchid;
+    /* background-color: darkorchid; */
+
+    flex-basis: 60%;
 }
 
 .social-icons {
-    background-color: deepskyblue;
+    /* background-color: deepskyblue; */
+
+    height: 50%;
+    padding-right: 100px;
+}
+
+.social-icons a {
+    height: 100%;
+}
+
+.social-icons i {
+    height: 100%;
 }
