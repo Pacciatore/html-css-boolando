@@ -85,7 +85,14 @@ img {
 .container {
     margin: 0 auto;
     max-width: 1200px;
-    background-color: blue;
+    /* background-color: blue; */
+}
+
+/* a-Link reset */
+a {
+    color: inherit;
+    cursor: default;
+    text-decoration: none;
 }
 
 /* CONTENT */
@@ -94,25 +101,42 @@ img {
 
 header {
     background-color: #ff6900;
-    height: 50px;
+    height: 80px;
     width: 100%;
     position: fixed;
     z-index: 1;
 }
 
+header a {
+    color: white;
+}
+
+header a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 .category-selection {
-    background-color: aqua;
+    /* background-color: aqua; */
+    width: 20%;
+    align-items: center;
+}
+
+.category-links {
+    width: 50%;
+    font-weight: bold;
 }
 
 #logo {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     flex-basis: 50%;
 
-    padding: 10px;
+    padding: 25px;
+    padding-left: 110px;
 
-    height: 50px;
+    height: 80px;
 
-    text-align: center;
+    /* text-align: center */
 }
 
 .nav-icons {
