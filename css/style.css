@@ -56,6 +56,9 @@ img {
     flex-shrink: 1;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
 
 /* Clearfix per uso del float, da applicare al container */
 .clearfix::after {
