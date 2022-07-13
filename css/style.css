@@ -140,7 +140,12 @@ header a:hover {
 }
 
 .nav-icons {
-    background-color: brown;
+    /* background-color: brown; */
+    align-items: center;
+    color: white;
+    column-gap: 15px;
+
+    flex-grow: 0;
 }
 
 /* Main */
