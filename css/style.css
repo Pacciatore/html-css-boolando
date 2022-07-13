@@ -60,6 +60,11 @@ img {
     flex-wrap: wrap;
 }
 
+/* Position tags */
+.absolute {
+    position: absolute;
+}
+
 /* Clearfix per uso del float, da applicare al container */
 .clearfix::after {
     clear: both;
@@ -92,6 +97,7 @@ header {
     height: 50px;
     width: 100%;
     position: fixed;
+    z-index: 1;
 }
 
 .category-selection {
@@ -127,10 +133,52 @@ main {
 
 .shop-item {
     background-color: crimson;
-    height: 600px;
+    height: 800px;
     width: calc(100% / 3 - 10px);
+    position: relative;
 
     margin-top: 30px;
+}
+
+.fake-img {
+    width: 100%;
+    height: 80%;
+    background-color: chartreuse;
+}
+
+.caption {
+    width: 100%;
+    height: 20%;
+    background-color: darkslateblue;
+}
+
+.heart {
+    top: 10px;
+    right: 0;
+
+    font-size: xx-large;
+    padding: 5px 15px;
+    background-color: white;
+}
+
+.labels {
+    bottom: 25%;
+}
+
+.labels>* {
+    margin-right: 5px;
+    color: white;
+
+    padding: 5px;
+}
+
+.discount {
+    background-color: #ff0000;
+}
+
+.eco {
+    background-color: #008000;
+    font-weight: bold;
 }
 
 /* Footer */
