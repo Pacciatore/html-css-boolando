@@ -200,6 +200,22 @@ footer>.container>* {
     background-color: pink;
 }
 
+#corp-name {
+    background-color: darkturquoise;
+}
+
+.legal-links {
+    background-color: darkkhaki;
+}
+
 .social-area {
     background-color: darkgoldenrod;
+}
+
+.social-message {
+    background-color: darkorchid;
+}
+
+.social-icons {
+    background-color: deepskyblue;
 }
