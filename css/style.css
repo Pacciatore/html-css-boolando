@@ -137,3 +137,19 @@ footer {
     background-color: seagreen;
     height: 100px;
 }
+
+footer * {
+    height: 100px;
+}
+
+footer>.container>* {
+    flex-basis: 50%;
+}
+
+.legal-info {
+    background-color: pink;
+}
+
+.social-area {
+    background-color: darkgoldenrod;
+}
