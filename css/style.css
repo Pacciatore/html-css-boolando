@@ -197,14 +197,17 @@ main {
 }
 
 .labels {
-    bottom: 25%;
+    bottom: 33%;
 }
 
 .labels>* {
     margin-right: 5px;
     color: white;
+    border-radius: 5px;
 
-    padding: 5px;
+    font-weight: bold;
+
+    padding: 5px 10px;
 }
 
 .discount {
@@ -213,7 +216,6 @@ main {
 
 .eco {
     background-color: #008000;
-    font-weight: bold;
 }
 
 /* Footer */
