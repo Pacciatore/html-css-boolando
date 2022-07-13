@@ -170,9 +170,15 @@ main {
 }
 
 .fake-img {
+    /* background-color: chartreuse; */
+
     width: 100%;
-    height: 80%;
-    background-color: chartreuse;
+    height: 563px;
+}
+
+.fake-img>* {
+    height: auto;
+    width: 100%
 }
 
 .caption {
