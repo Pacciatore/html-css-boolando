@@ -246,6 +246,9 @@ main {
     font-size: xx-large;
     padding: 5px 15px;
     background-color: white;
+
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
 }
 
 .heart:hover {
